@@ -1,12 +1,12 @@
-# Calculator
+# Multiplication Table
 
-css transform 來旋轉圖，實現時鐘效果。
+css flex 排版技巧，搭配 v-for 實現。
 
 ## Skill
 
 - vue
-- regex
+- css flex
 
 ## Demo
 
-![clock](https://user-images.githubusercontent.com/34854876/117566855-a19a9e00-b0eb-11eb-8615-0969a16aac72.jpg)
+![9x9 chart](https://user-images.githubusercontent.com/34854876/117567361-9d23b480-b0ee-11eb-8d9b-941307bd8a1c.jpg)
