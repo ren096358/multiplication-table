@@ -1,16 +1,24 @@
 <template>
   <div id="app">
-    <Clock />
+    <MultiplicationTable />
+    <div class="footer">{{ footer.text }}</div>
   </div>
 </template>
 
 <script>
-import Clock from './components/Clock.vue'
+import MultiplicationTable from './components/MultiplicationTable.vue'
 
 export default {
   name: 'App',
   components: {
-    Clock,
+    MultiplicationTable,
+  },
+  data() {
+    return {
+      footer: {
+        text: 'Copyright © 2019 HexSchool. All rights reserved.',
+      },
+    }
   },
 }
 </script>
@@ -22,6 +30,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  width: 1280px;
+  height: 100%;
+  font-family: PingFang TC, Helvetica Neue, Microsoft JhengHei;
+  color: #2eb738;
+}
+.footer {
+  background-color: #2eb738;
+  color: #f0f0f0;
+  padding: 8px 85px 8px 0;
+  text-align: right;
 }
 </style>
